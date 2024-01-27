@@ -1,0 +1,45 @@
+.roadcontainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.road_element{
+  border: solid 3px #808080;
+  background-color: #808080;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 8px;
+  width: 33.33%;
+  justify-content:center ;
+  align-items: center;
+  text-align: center;
+  
+}
+.road_element p{
+  margin: 10px;
+  line-height:2.5;
+}
+@media (max-width: 1199px) {
+  .roadcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+  }
+  .road_element{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 8px;
+    width: 100%;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+}
